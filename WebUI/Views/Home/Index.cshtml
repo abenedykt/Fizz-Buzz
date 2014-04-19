@@ -1,1 +1,19 @@
-﻿<h1>hello world</h1>
+﻿<div ng-controller="fizzBuzzCtrl">
+	<h1>Fizz Buzz</h1>
+	<input ng-model="input" ng-change="updateFizzBuzz(input)"/>
+	<ul>
+		<li ng-repeat="val in result track by $index">{{val}}</li>
+	</ul>
+</div>
+<script language="javascript">
+	function fizzBuzzCtrl($scope) {
+		$scope.input = 1;
+		$scope.result = "1";
+
+		var demo = ['1','2','Fizz','4','Buzz','Fizz','7','8','Fizz','Buzz','11']
+
+		$scope.updateFizzBuzz = function(val) {
+			$scope.result = demo.slice(0, val);
+		}
+	}
+</script>

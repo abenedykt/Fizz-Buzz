@@ -21,6 +21,7 @@ C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Newtonsoft.Json.xm
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\System.Net.Http.Formatting.xml
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\System.Web.Http.xml
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\System.Web.Http.WebHost.xml
-C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.dll
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.pdb
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
