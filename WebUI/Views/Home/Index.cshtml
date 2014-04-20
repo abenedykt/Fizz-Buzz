@@ -7,14 +7,16 @@
 	</ul>
 </div>
 <script language="javascript">
-	function fizzBuzzCtrl($scope) {
+	function fizzBuzzCtrl($scope,$http) {
 		$scope.input = 1;
 		$scope.result = "1";
 
 		var demo = ['1','2','Fizz','4','Buzz','Fizz','7','8','Fizz','Buzz','11']
 
-		$scope.updateFizzBuzz = function(val) {
-			$scope.result = demo.slice(0, val);
+		$scope.updateFizzBuzz = function (val) {
+			$http.get('/api/fizzbuzz/' + val).success(function(data) {
+				$scope.result = data;
+			})
 		}
 	}
 </script>
