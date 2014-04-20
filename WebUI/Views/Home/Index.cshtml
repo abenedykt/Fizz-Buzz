@@ -1,4 +1,5 @@
-﻿<div ng-controller="fizzBuzzCtrl">
+﻿@model IEnumerable<string>
+<div ng-controller="fizzBuzzCtrl">
 	<h1>Fizz Buzz</h1>
 	<input ng-model="input" ng-change="updateFizzBuzz(input)"/>
 	<ul>
@@ -17,3 +18,10 @@
 		}
 	}
 </script>
+
+
+
+@foreach (var val in Model)
+{
+	<p>@val</p>
+}

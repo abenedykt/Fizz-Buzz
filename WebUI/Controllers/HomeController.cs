@@ -1,12 +1,20 @@
 ﻿using System.Web.Mvc;
+using FizzBuzzApplication;
 
 namespace WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+	    private readonly IApplication _app;
+
+	    public HomeController(IApplication app)
+	    {
+		    _app = app;
+	    }
+
+	    public ActionResult Index()
         {
-            return View();
+            return View(_app.Play(2));
         }
 	}
 }

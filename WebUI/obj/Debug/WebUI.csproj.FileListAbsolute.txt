@@ -25,3 +25,9 @@ C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.dll
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.pdb
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Microsoft.Web.Infrastructure.dll
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.dll
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.Integration.Mvc.dll
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.xml
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.Integration.Mvc.xml
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\FizzBuzzApplication.dll
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\FizzBuzzApplication.pdb
