@@ -31,3 +31,5 @@ C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.xml
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.Integration.Mvc.xml
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\FizzBuzzApplication.dll
 C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\FizzBuzzApplication.pdb
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.Integration.WebApi.dll
+C:\Visual Studio Projects\180_days_project\FizzBuzz\WebUI\bin\Autofac.Integration.WebApi.xml
