@@ -1,11 +1,29 @@
 ﻿@model IEnumerable<string>
-<div ng-controller="fizzBuzzCtrl">
-	<h1>Fizz Buzz</h1>
-	<input ng-model="input" ng-change="updateFizzBuzz(input)"/>
-	<ul>
-		<li ng-repeat="val in result track by $index">{{val}}</li>
-	</ul>
-</div>
+<style>
+	ol {
+		list-style: lower-alpha;
+	}
+	 ol li {
+		 display: block;
+		 float: left;
+		 margin: 1em;		
+	 }
+</style>
+	<div ng-controller="fizzBuzzCtrl" class="jumbotron">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Fizz Buzz</h1>
+				<input ng-model="input" ng-change="updateFizzBuzz(input)" />
+				<ol type="1"> 
+					<li ng-repeat="val in result track by $index">{{val}}</li>
+				</ol>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+	</div>
+
 <script language="javascript">
 	function fizzBuzzCtrl($scope,$http) {
 		$scope.input = 1;
