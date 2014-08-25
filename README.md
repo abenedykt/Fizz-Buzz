@@ -1,4 +1,4 @@
-Fizz  Buzz
+Fizz  Buzz [![Build status](https://ci.appveyor.com/api/projects/status/5cls2d5v1usnyvvv)](https://ci.appveyor.com/project/abenedykt/fizz-buzz)
 =========
 
 This is an implementation of one of the easiest code katas out there, the Fizz Buzz game.
